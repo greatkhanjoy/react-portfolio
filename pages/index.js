@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="design" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
@@ -120,7 +120,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image src={consulting} width={100} height={100} />
+              <Image
+                src={consulting}
+                width={100}
+                height={100}
+                alt="consulting"
+              />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
@@ -163,6 +168,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web1"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -172,6 +178,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web2"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -181,6 +188,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web3"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -190,6 +198,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web4"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -199,6 +208,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web5"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -208,6 +218,7 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
+                alt="web6"
               />
             </div>
           </div>
